@@ -1,0 +1,364 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'New York';
+}
+
+.search{
+    height: auto;
+    width: 430px;
+    background-color: white;
+    position: absolute;
+    top: 55vh;
+    left: 1vw;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    display: none;
+    z-index: 1;
+}
+
+.search span{
+    font-family: "DM Sans", sans-serif;
+}
+
+.search input{
+    height: 45px;
+    width: 50%;
+    text-indent: 10px;
+    font-family: "DM Sans", sans-serif;
+    border-radius: 5px;
+}
+
+.btn2{
+    height: 45px;
+    border-radius: 5px;
+    background-color: #7c4c54;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    border: 0px;
+}
+
+@font-face {
+    font-family: 'New York';
+    src: url(newyork/NewYork\ PERSONAL\ USE.ttf);
+}
+
+#icon1{
+    font-size: 25px;
+    position: absolute;
+    left: 90%;
+}
+
+.main1{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+header{
+    height: 12vh;
+    width: 100%;
+    border: 1px solid silver;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid silver;
+}
+
+.btn1{
+    height: 25px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    font-size: 16px;
+    color: white;
+    border: 1px solid silver;
+    margin-inline: 5px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.btn1:hover{
+    background: white;
+    color: black;
+}
+
+.main2{
+    height: 88vh;
+    /* border: 1px solid white; */
+}
+
+.main2 .box1{
+    height: 100%;
+    border: 1px solid silver;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 1px solid silver;
+}
+
+.box1{
+    width: 50px;
+}
+
+.box1a{
+    position: relative;
+    top: 40vh;
+}
+
+#offcanvasTop{
+    height: 100vh;
+    background-color: #2a2a2a;
+}
+
+.box2{
+    width: 50px;
+}
+
+.box1b img{
+    position: relative;
+    top: 73vh;
+}
+
+#text1{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#text1:hover{
+    color: #c49d68;
+    font-family: 'New York';
+}
+
+#text2{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#text2:hover{
+    color: #7c4c54;
+    font-family: 'New York';
+}
+
+#text3{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#text3:hover{
+    color: #d7d7d7;
+    font-family: 'New York';
+}
+
+#text4{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#text4:hover{
+    color: #7d807d;
+    font-family: 'New York';
+}
+
+.box2{
+    border: 1px solid silver;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 1px solid silver;
+}
+
+
+.box1c img{
+    position: relative;
+    top: 71vh;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#col3{
+    height: 100vh;
+    background-image: url(Image/sukabumi_0001_amb29_cmyk_.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 90px;
+}
+
+
+#text5{
+    font-family: "Jost", sans-serif;   
+    color: white;
+    font-weight: 400;
+    margin-left: 7vw;
+}
+
+#text6{
+    font-family: 'New York';
+    font-weight: 400;
+    color: white;
+}
+
+#p1{
+    font-family: "Jost", sans-serif;   
+}
+
+#col4{
+    height: 100vh;
+    background-image: url(Image/marble_0001_Marble-verde.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img3{
+    height: 150px;
+    width: 70%;
+    background-image: url(Image/132924_MARBLE-SAND-300x300.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img3:hover #p2{
+    opacity: 1;
+}
+
+
+.img4{
+    height: 150px;
+    width: 70%;
+    background-image: url(Image/132914_SUKABUMI-GREEN-300x300.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img4:hover #p2{
+    opacity: 1;
+}
+
+.img5{
+    height: 150px;
+    width: 70%;
+    background-image: url(Image/132926_MARBLE-GRAPHITE-300x300.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img5:hover #p2{
+    opacity: 1;
+}
+
+
+#col5{
+    height: 100vh;
+    background-image: url(Image/marble_bien_0002_Amb05_verde_cmyk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img6{
+    height: 150px;
+    width: 70%;
+    background-image: url(Image/132899_AQUA-S-SAND--300x300.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img6:hover #p2{
+    opacity: 1;
+}
+
+
+.img7{
+    height: 150px;
+    width: 70%;
+    background-image: url(Image/132901_AQUA-S-GREY-300x300.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img7:hover #p2{
+    opacity: 1;
+}
+
+.img8{
+    height: 150px;
+    width: 70%;
+    background-image: url(Image/132900_AQUA-S-GREEN-300x300.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img8:hover #p2{
+    opacity: 1;
+}
+
+
+.slider{
+    width: 200px;
+}
+
+
+#p2{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    font-family: "Jost", sans-serif;   
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+footer{
+    background-color: #2a2a2a;
+}
+
+.btn10{
+    height: 45px;
+    width: 90%;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: "Jost", sans-serif;   
+    font-weight: 600;
+    transition-duration: 0.5s;
+}
+
+.btn10:hover{
+    background-color: #c49d68;
+    color: white;
+    border: 0px;
+}
+
+#col2{
+    height: 150px;
+    transition-duration: 0.5s;
+}
+
+#col2 p{
+    font-family: "Jost", sans-serif;   
+    color: white;
+}
+
+#col2:hover{
+    background-color: #7c4c54;
+}

@@ -1,0 +1,1018 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'New York';
+}
+
+.search{
+    height: auto;
+    width: 430px;
+    background-color: white;
+    position: absolute;
+    top: 55vh;
+    left: 1vw;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    display: none;
+    z-index: 1;
+}
+
+.search span{
+    font-family: "DM Sans", sans-serif;
+}
+
+.search input{
+    height: 45px;
+    width: 50%;
+    text-indent: 10px;
+    font-family: "DM Sans", sans-serif;
+    border-radius: 5px;
+}
+
+.btn2{
+    height: 45px;
+    border-radius: 5px;
+    background-color: #7c4c54;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    border: 0px;
+}
+
+@font-face {
+    font-family: 'New York';
+    src: url(newyork/NewYork\ PERSONAL\ USE.ttf);
+}
+
+#icon1{
+    font-size: 25px;
+    position: absolute;
+    left: 90%;
+}
+
+.main1{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+header{
+    height: 12vh;
+    width: 100%;
+    border: 1px solid silver;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid silver;
+}
+
+.btn1{
+    height: 25px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    font-size: 16px;
+    color: white;
+    border: 1px solid silver;
+    margin-inline: 5px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.btn1:hover{
+    background: white;
+    color: black;
+}
+
+.main2{
+    height: 88vh;
+    /* border: 1px solid white; */
+}
+
+.main2 .box1{
+    height: 100%;
+    border: 1px solid silver;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 1px solid silver;
+}
+
+.box1{
+    width: 50px;
+}
+
+.box1a{
+    position: relative;
+    top: 40vh;
+}
+
+#offcanvasTop{
+    height: 100vh;
+    background-color: #2a2a2a;
+}
+
+.box2{
+    width: 50px;
+}
+
+.box1b img{
+    position: relative;
+    top: 73vh;
+}
+
+#text1{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#text1:hover{
+    color: #c49d68;
+    font-family: 'New York';
+}
+
+#text2{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#text2:hover{
+    color: #7c4c54;
+    font-family: 'New York';
+}
+
+#text3{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#text3:hover{
+    color: #d7d7d7;
+    font-family: 'New York';
+}
+
+#text4{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#text4:hover{
+    color: #7d807d;
+    font-family: 'New York';
+}
+
+.box2{
+    border: 1px solid silver;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 1px solid silver;
+}
+
+
+.box1c img{
+    position: relative;
+    top: 71vh;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#p1{
+    font-family: "Jost", sans-serif;
+}
+
+#p2{
+    font-family: 'New York';
+}
+
+#p3{
+    font-family: "Jost", sans-serif;
+    color: #c49d68;
+    font-weight: bold;
+}
+
+#r1{
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.box4{
+    height: 330px;
+    background-image: url(Image/inspirationBook_2.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box4{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box6{
+    height: 330px;
+    background-image: url(Image/outdoorLiving.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box6{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box7{
+    height: 330px;
+    background-image: url(Image/cersaie23.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box7{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box8{
+    height: 330px;
+    background-image: url(Image/cust2.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box8{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+
+.box9 p{
+    font-family: "Jost", sans-serif;   
+    color: black;
+}
+
+.box5{
+    height: 70px;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box5{
+    background-color: #7c4c54;
+}
+
+.txt1{
+    width: 80%;
+    opacity: 0;
+}
+
+.box9:hover .txt1{
+    opacity: 1;
+}
+
+.box9:hover .box5 #p3{
+    color: white;
+}
+
+
+.box10{
+    height: 330px;
+    background-image: url(Image/60-2.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box10{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box11{
+    height: 330px;
+    background-image: url(Image/abbey-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box11{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box12{
+    height: 330px;
+    background-image: url(Image/alchemist-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box12{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box13{
+    height: 330px;
+    background-image: url(Image/Aqua.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box13{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+
+.box14{
+    height: 330px;
+    background-image: url(Image/aquarelle-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box14{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box15{
+    height: 330px;
+    background-image: url(Image/bejmat-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box15{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box16{
+    height: 330px;
+    background-image: url(Image/BITS.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box16{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box17{
+    height: 330px;
+    background-image: url(Image/boho-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box17{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+
+.box18{
+    height: 330px;
+    background-image: url(Image/casbah-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box18{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box19{
+    height: 330px;
+    background-image: url(Image/colour-notes.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box19{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box20{
+    height: 330px;
+    background-image: url(Image/cottage-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box20{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box21{
+    height: 330px;
+    background-image: url(Image/crafted-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box21{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box22{
+    height: 330px;
+    background-image: url(Image/enso.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box22{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box23{
+    height: 330px;
+    background-image: url(Image/faces.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box23{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box24{
+    height: 330px;
+    background-image: url(Image/fayenza-3.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box24{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box25{
+    height: 330px;
+    background-image: url(Image/FEZ-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box25{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+
+
+.box26{
+    height: 330px;
+    background-image: url(Image/denim-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box26{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box27{
+    height: 330px;
+    background-image: url(Image/drops-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box27{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box28{
+    height: 330px;
+    background-image: url(Image/duo-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box28{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box29{
+    height: 330px;
+    background-image: url(Image/elleFloor-2.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box29{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box30{
+    height: 330px;
+    background-image: url(Image/floor-tiles.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box30{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box31{
+    height: 330px;
+    background-image: url(Image/flow-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box31{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box32{
+    height: 330px;
+    background-image: url(Image/gea-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box32{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box33{
+    height: 330px;
+    background-image: url(Image/glow-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box33{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box34{
+    height: 330px;
+    background-image: url(Image/grace-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box34{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box35{
+    height: 330px;
+    background-image: url(Image/gradient-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box35{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box36{
+    height: 330px;
+    background-image: url(Image/hammer.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box36{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box37{
+    height: 330px;
+    background-image: url(Image/icon.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box37{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box38{
+    height: 330px;
+    background-image: url(Image/loveAffairs-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box38{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box39{
+    height: 330px;
+    background-image: url(Image/Marble.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box39{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box40{
+    height: 330px;
+    background-image: url(Image/melange-2.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box40{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box41{
+    height: 330px;
+    background-image: url(Image/mestizje.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box41{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box42{
+    height: 330px;
+    background-image: url(Image/mud-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box42{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box43{
+    height: 330px;
+    background-image: url(Image/point-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box43{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box44{
+    height: 330px;
+    background-image: url(Image/potters.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box44{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box45{
+    height: 330px;
+    background-image: url(Image/pottery-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box45{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box46{
+    height: 330px;
+    background-image: url(Image/puzzle-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box46{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box47{
+    height: 330px;
+    background-image: url(Image/rasterr.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box47{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box48{
+    height: 330px;
+    background-image: url(Image/Rebels.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box48{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box49{
+    height: 330px;
+    background-image: url(Image/roots-13.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box49{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box50{
+    height: 330px;
+    background-image: url(Image/six-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box50{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box51{
+    height: 330px;
+    background-image: url(Image/solid-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box51{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box52{
+    height: 330px;
+    background-image: url(Image/stardust-2.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box52{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box53{
+    height: 330px;
+    background-image: url(Image/stripes-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box53{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box54{
+    height: 330px;
+    background-image: url(Image/sukabumi.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box54{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box55{
+    height: 330px;
+    background-image: url(Image/SB.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box55{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box56{
+    height: 330px;
+    background-image: url(Image/tesserae-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box56{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box57{
+    height: 330px;
+    background-image: url(Image/texiture-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box57{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box58{
+    height: 330px;
+    background-image: url(Image/twin-peaks.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box58{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box59{
+    height: 330px;
+    background-image: url(Image/twister.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box59{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box60{
+    height: 330px;
+    background-image: url(Image/WOW-2.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box60{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box61{
+    height: 330px;
+    background-image: url(Image/zelligeHexa-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box61{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box62{
+    height: 330px;
+    background-image: url(Image/wowWarranty.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box62{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box63{
+    height: 330px;
+    background-image: url(Image/wowFaq.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box63{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box64{
+    height: 330px;
+    background-image: url(Image/counterGuide.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box64{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box65{
+    height: 330px;
+    background-image: url(Image/wax-coat.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box65{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+.box66{
+    height: 330px;
+    background-image: url(Image/wax-coat2.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+.box9:hover .box66{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+footer{
+    background-color: #2a2a2a;
+}
+
+.btn10{
+    height: 45px;
+    width: 90%;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: "Jost", sans-serif;   
+    font-weight: 600;
+    transition-duration: 0.5s;
+}
+
+.btn10:hover{
+    background-color: #c49d68;
+    color: white;
+    border: 0px;
+}
+
+#col2{
+    height: 150px;
+    transition-duration: 0.5s;
+}
+
+#col2 p{
+    font-family: "Jost", sans-serif;   
+    color: white;
+}
+
+#col2:hover{
+    background-color: #7c4c54;
+}

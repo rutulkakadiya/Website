@@ -1,0 +1,45 @@
+@media (min-width: 993px) and (max-width: 1300px){
+    #r1{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px){    
+    #r1{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px){
+    #text1{
+        font-size: 70px;
+    }
+    #text2{
+        font-size: 70px;
+    }
+    #text3{
+        font-size: 70px;
+    }
+    #r1{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 576px){
+    #text1{
+        font-size: 35px;
+    }
+    #text2{
+        font-size: 35px;
+    }
+    #text3{
+        font-size: 35px;
+    }
+    #r1{
+        width: 100%;
+        margin-left: 0%;
+    }
+}

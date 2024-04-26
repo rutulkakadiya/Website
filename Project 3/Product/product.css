@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'EngraversGothic BT';
+}
+
+#offcanvasTop{
+    height: 100vh;
+    background-color: #d6d2ce;
+}
+
+@font-face {
+    font-family: 'EngraversGothic BT';
+    src: url(../Engravers-Gothic-BT-Font/Engravers-Gothic-BT-Font.ttf);
+}
+
+header{
+    /* position: relative;
+    z-index: 1; */
+    /* border: 1px solid white; */
+}
+
+#txt1{
+    font-family: 'EngraversGothic BT';
+    font-weight: bold;
+    z-index: 1;
+}
+
+#txt1:hover{
+    opacity: 0.5;
+}
+
+.box1 p{
+    margin-inline: 10px;
+    font-weight: bold;
+}
+
+.box2 i{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+#txt2:hover{
+    opacity: 0.5;
+}
+
+.box3{
+    border: 1px solid #8d8787;
+}
+
+#img1{
+    height: 400px;
+    width: 95%;
+}
+
+#img2{
+    height: 30px;
+}
+
+/* footer */
+
+#ul1 span{
+    line-height: 30px;
+}

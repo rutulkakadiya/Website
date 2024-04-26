@@ -1,0 +1,553 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'New York';
+}
+
+.search{
+    height: auto;
+    width: 430px;
+    background-color: white;
+    position: absolute;
+    top: 55vh;
+    left: 1vw;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    display: none;
+    z-index: 1;
+}
+
+.search span{
+    font-family: "DM Sans", sans-serif;
+}
+
+.search input{
+    height: 45px;
+    width: 50%;
+    text-indent: 10px;
+    font-family: "DM Sans", sans-serif;
+    border-radius: 5px;
+}
+
+.btn2{
+    height: 45px;
+    border-radius: 5px;
+    background-color: #7c4c54;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    border: 0px;
+}
+
+@font-face {
+    font-family: 'New York';
+    src: url(newyork/NewYork\ PERSONAL\ USE.ttf);
+}
+
+#icon1{
+    font-size: 25px;
+    position: absolute;
+    left: 90%;
+}
+
+.main1{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+header{
+    height: 12vh;
+    width: 100%;
+    border: 1px solid silver;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid silver;
+}
+
+.btn1{
+    height: 25px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    font-size: 16px;
+    color: white;
+    border: 1px solid silver;
+    margin-inline: 5px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.btn1:hover{
+    background: white;
+    color: black;
+}
+
+.main2{
+    height: 88vh;
+    /* border: 1px solid white; */
+}
+
+.main2 .box1{
+    height: 100%;
+    border: 1px solid silver;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 1px solid silver;
+}
+
+.box1{
+    width: 50px;
+}
+
+.box1a{
+    position: relative;
+    top: 40vh;
+}
+
+#offcanvasTop{
+    height: 100vh;
+    background-color: #2a2a2a;
+}
+
+.box2{
+    width: 50px;
+}
+
+.box1b img{
+    position: relative;
+    top: 73vh;
+}
+
+#text1{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#text1:hover{
+    color: #c49d68;
+    font-family: 'New York';
+}
+
+#text2{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#text2:hover{
+    color: #7c4c54;
+    font-family: 'New York';
+}
+
+#text3{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#text3:hover{
+    color: #d7d7d7;
+    font-family: 'New York';
+}
+
+#text4{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#text4:hover{
+    color: #7d807d;
+    font-family: 'New York';
+}
+
+.box2{
+    border: 1px solid silver;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 1px solid silver;
+}
+
+
+.box1c img{
+    position: relative;
+    top: 71vh;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main3{
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+
+#slide1{
+    height: 100%;
+    background-image: url(Image/potters-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slider1{
+    height: 88vh;
+    position: absolute;
+    top: 12vh;
+    left: 10%;
+    /* border: 1px solid red; */
+}
+
+#text5{
+    text-align: left;
+}
+
+.btn3{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    position: relative;
+    right: 13vw;
+    transition-duration: 0.5s;
+}
+
+.btn3:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.img3{
+    position: absolute;
+    top: 38vh;
+    left: 65vw;
+    animation: animate1 30s linear infinite;
+}
+@keyframes animate1{
+    50%{
+        transform: rotate(360deg);
+    }
+}
+
+.img4{
+    height: 70px;
+    position: absolute;
+    top: 46vh;
+    left: 69vw;
+}
+
+#slide2{
+    height: 100%;
+    background-image: url(Image/melange-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#slide2 h1{
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.slider1{
+    height: 88vh;
+    position: absolute;
+    top: 12vh;
+    left: 10%;
+    /* border: 1px solid red; */
+}
+
+.btn4{
+    height: 35px;
+    width: 200px;
+    background-color: transparent;
+    font-family: "DM Sans", sans-serif;
+    color: black;
+    border: 1px solid black;
+    position: relative;
+    right: 13vw;
+    transition-duration: 0.5s;
+}
+
+.btn4:hover{
+    background-color: #7c4c54;
+}
+
+#slide3{
+    height: 100%;
+    background-image: url(Image/bits_0003_Amb01_CMYK.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#slide3 h1{
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.btn5{
+    height: 35px;
+    width: 200px;
+    background-color: transparent;
+    font-family: "DM Sans", sans-serif;
+    color: black;
+    border: 1px solid black;
+    position: relative;
+    right: 9vw;
+    transition-duration: 0.5s;
+}
+
+.btn5:hover{
+    background-color: #7c4c54;
+}
+#slide4{
+    height: 100%;
+    background-image: url(Image/TWIN-PEAKS.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#slide4 h1{
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    color: #7c4c54;
+}
+
+#text6{
+    font-family: "DM Sans", sans-serif;
+}
+
+.img5{
+    position: relative;
+    top: 15vh;
+    left: 63vw;
+    animation: animate2 5s linear infinite;
+}
+
+@keyframes animate2{
+    50%{
+        top: 18vh;
+    }
+}
+
+#r1{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.btn6{
+    height: 50px;
+    /* width: 150px; */
+    background-color: transparent;
+    font-family: "Jost", sans-serif;
+    transition-duration: 0.5s;
+}
+
+.btn6:hover{
+    background-color: #9ca89b;
+    border: 0px;
+    color: white;
+}
+#p1{
+    font-family: "Jost", sans-serif;
+}
+
+.main6{
+    background-color: #dfdcdd;
+}
+
+
+.btn7{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    transition-duration: 0.5s;
+}
+
+.btn7:hover{
+    background-color: black;
+    color: white;
+}
+
+.box5 h1{
+    letter-spacing: 3px;
+    color: #7c4c54;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+}
+
+.btn8{
+    border: 0px;
+    background-color: transparent;
+    padding-inline: 250px;
+    font-family: "Jost", sans-serif;
+}
+
+.box6{
+    height: 650px;
+    background-image: url(Image/419X783_twin.jpg);
+    background-size: cover;
+    background-position: center;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    cursor: pointer;
+}
+
+#box h3{
+    color: #c49d68;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    position: relative;
+    bottom: 12vh;
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+
+#box:hover h3{
+    position: relative;
+    bottom: -3vh;
+    opacity: 1;
+}
+
+.box6:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Image/419X783_twin.jpg);
+}
+
+.box7{
+    height: 325px;
+    background-image: url(Image/640X388_melange-1.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.box7:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Image/640X388_melange-1.jpg);
+}
+
+.box8{
+    height: 325px;
+    background-image: url(Image/640X388_faces.jpg);
+    background-size: cover;
+    background-position: center;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    cursor: pointer;
+}
+
+.box8:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Image/640X388_faces.jpg);
+}
+
+.box9{
+    height: 325px;
+    background-image: url(Image/pottes-white.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    cursor: pointer;
+}
+
+.box9:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Image/pottes-white.jpg);
+}
+
+.box10{
+    height: 325px;
+    background-image: url(Image/1_857X383_bits.jpg);
+    background-size: cover;
+    background-position: center;
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+    cursor: pointer;
+}
+
+.box10:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Image/1_857X383_bits.jpg);
+}
+
+.main9 h1{
+    color: #9ca89b;
+    font-weight: 400;
+}
+
+.box11{
+    height: 350px;
+    background-image: url(Image/FOTO-CONTACTOS-1.jpg);
+}
+
+.btn9{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    font-family: "Jost", sans-serif;   
+    transition-duration: 0.5s;
+}
+
+.btn9:hover{
+    background-color: #c49d68;
+    color: white;
+    border: 0px;
+}
+
+footer{
+    background-color: #2a2a2a;
+}
+
+.btn10{
+    height: 45px;
+    width: 90%;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: "Jost", sans-serif;   
+    font-weight: 600;
+    transition-duration: 0.5s;
+}
+
+.btn10:hover{
+    background-color: #c49d68;
+    color: white;
+    border: 0px;
+}
+
+#col2{
+    height: 150px;
+    transition-duration: 0.5s;
+}
+
+#col2 p{
+    font-family: "Jost", sans-serif;   
+    color: white;
+}
+
+#col2:hover{
+    background-color: #7c4c54;
+}

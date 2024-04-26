@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'New York';
+}
+
+@font-face {
+    font-family: 'New York';
+    src: url(newyork/NewYork\ PERSONAL\ USE.ttf);
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+#img1{
+    height: 100vh;
+}
+
+.main2{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    font-family: 'New York';
+}
+
+#text1{
+    color: #bb9766;
+    font-family: "Jost", sans-serif;   
+}
+
+#text2{
+    font-family: "Jost", sans-serif;   
+    font-weight: 600;
+}
+
+#text3{
+    font-family: 'New York';
+
+}
+
+#col1{
+    height: 100vh;
+}
+
+.box2{
+    width: 80%;
+    background-color: white;
+    font-family: "Jost", sans-serif;   
+
+}
+
+#input1{
+    height: 50px;
+    border: 0px;
+    border-bottom: 1px solid silver;
+    width: 80%;
+}
+
+.btn1{
+    height: 35px;
+    width: 80%;
+    background-color: #bb9766;
+    color: white;
+    border: 0px;
+}
+
+.a1:hover{
+    text-decoration: none;
+}
+
+.a2:hover{
+    text-decoration: none;
+}

@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'EngraversGothic BT';
+}
+
+#offcanvasTop{
+    height: 100vh;
+    background-color: #d6d2ce;
+}
+
+@font-face {
+    font-family: 'EngraversGothic BT';
+    src: url(../Engravers-Gothic-BT-Font/Engravers-Gothic-BT-Font.ttf);
+}
+
+#txt1{
+    font-family: 'EngraversGothic BT';
+    font-weight: bold;
+}
+
+#txt1:hover{
+    opacity: 0.5;
+}
+
+.box1 p{
+    margin-inline: 10px;
+    font-weight: bold;
+}
+
+.box2 i{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+#txt2:hover{
+    opacity: 0.5;
+}
+
+.box3{
+    /* width: 90%; */
+}
+
+.img1{
+    padding-inline: 80px;
+    transition-duration: 0.7s;
+}
+
+.h1{
+    word-spacing: 0vw; 
+    color: #46484b;
+}
+
+.background{
+    word-spacing: 5vw;
+    transition-duration: 1s;
+}
+
+.background1{
+    padding-inline: 0px;
+    transition-duration: 0.7s;
+}
+ 
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#sec1{
+    height: 100vh;
+    background-image: url(Image/360branding80833271699161380.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#sec2{
+    height: 100vh;
+    background-image: url(Image/360branding91058231699161372.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#sec3{
+    height: 100vh;
+    background-image: url(Image/360branding70271681699161359.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#sec4{
+    height: 100vh;
+    background-image: url(Image/360branding27556511699161344.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main3{
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Image/360branding64267781698235470.jpg);
+    background-size: 90vw;
+    background-repeat: no-repeat;
+    margin-left: 5vw;
+    transition-duration: 0.7s;
+}
+
+.background2{
+    background-size: 97vw;
+    margin-left: 1vw;
+    transition-duration: 0.7s;
+}
+
+.marquee1{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.btn1{
+    height: 45px;
+    width: 180px;
+    border-radius: 30px;
+    background-color: white;
+    border: 0px;
+    font-family: 'EngraversGothic BT';
+}
+
+.main4{
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Image/360branding75382571698235459.jpg);
+    background-size: 90vw;
+    background-repeat: no-repeat;
+    margin-left: 5vw;
+    transition-duration: 0.7s;
+}
+
+.background3{
+    background-size: 97vw;
+    margin-left: 1vw;
+    transition-duration: 0.7s;
+}
+
+
+.main5{
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Image/360branding81142601698235452.jpg);
+    background-size: 90vw;
+    background-repeat: no-repeat;
+    margin-left: 5vw;
+    transition-duration: 0.7s;
+}
+
+.background4{
+    background-size: 97vw;
+    margin-left: 1vw;
+    transition-duration: 0.7s;
+}
+.main6{
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Image/360branding55586691698235443.jpg);
+    background-size: 90vw;
+    background-repeat: no-repeat;
+    margin-left: 5vw;
+    transition-duration: 0.7s;
+}
+
+.background5{
+    background-size: 97vw;
+    margin-left: 1vw;
+    transition-duration: 0.7s;
+}
+
+.main7{
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Image/360branding96165281698235433.jpg);
+    background-size: 90vw;
+    background-repeat: no-repeat;
+    margin-left: 5vw;
+    transition-duration: 0.7s;
+}
+
+.background6{
+    background-size: 97vw;
+    margin-left: 1vw;
+    transition-duration: 0.7s;
+}
+
+.main8{
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Image/360branding73275311698235425.jpg);
+    background-size: 90vw;
+    background-repeat: no-repeat;
+    margin-left: 5vw;
+    transition-duration: 0.7s;
+}
+
+.background7{
+    background-size: 97vw;
+    margin-left: 1vw;
+    transition-duration: 0.7s;
+}
+
+.main9{
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Image/360branding41694331700645662.jpg);
+    background-size: 90vw;
+    background-repeat: no-repeat;
+    margin-left: 5vw;
+    transition-duration: 0.7s;
+}
+
+.background8{
+    background-size: 97vw;
+    margin-left: 1vw;
+    transition-duration: 0.7s;
+}
+
+.main10{
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Image/360branding56391861700645805.jpg);
+    background-size: 90vw;
+    background-repeat: no-repeat;
+    margin-left: 5vw;
+    transition-duration: 0.7s;
+}
+
+.background9{
+    background-size: 97vw;
+    margin-left: 1vw;
+    transition-duration: 0.7s;
+}
+
+
+.main11{
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Image/360branding64052691700804056.jpg);
+    background-size: 90vw;
+    background-repeat: no-repeat;
+    margin-left: 5vw;
+    transition-duration: 0.7s;
+}
+
+.background10{
+    background-size: 97vw;
+    margin-left: 1vw;
+    transition-duration: 0.7s;
+}
+
+
+.main12{
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Image/360branding66392631701149855.jpg);
+    background-size: 90vw;
+    background-repeat: no-repeat;
+    margin-left: 5vw;
+    transition-duration: 0.7s;
+}
+
+.background11{
+    background-size: 97vw;
+    margin-left: 1vw;
+    transition-duration: 0.7s;
+}
+
+/* footer */
+
+#ul1 span{
+    line-height: 30px;
+}

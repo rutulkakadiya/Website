@@ -1,0 +1,335 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'EngraversGothic BT';
+}
+
+#offcanvasTop{
+    height: 100vh;
+    background-color: #d6d2ce;
+}
+
+@font-face {
+    font-family: 'EngraversGothic BT';
+    src: url(../Engravers-Gothic-BT-Font/Engravers-Gothic-BT-Font.ttf);
+}
+
+header{
+    position: relative;
+    z-index: 1;
+    /* border: 1px solid white; */
+}
+
+#txt1{
+    font-family: 'EngraversGothic BT';
+    font-weight: bold;
+    z-index: 1;
+}
+
+#txt1:hover{
+    opacity: 0.5;
+}
+
+.box1 p{
+    margin-inline: 10px;
+    font-weight: bold;
+}
+
+.box2 i{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+#txt2:hover{
+    opacity: 0.5;
+}
+
+
+.main1 {
+    height: 200vh;
+    width: 100vw;
+    background-image: url(Image/backs.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main2{
+    height: 200vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    top: 0px;
+    transition-duration: 1s;
+}
+
+
+.background{
+    background-color: black;
+    opacity: 0.7;
+    transition-duration: 1s;
+}
+
+#txt3{
+    color: #46484b;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+
+.main5{
+    height: 100vh;
+    background-image: url(Image/making.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background1{
+    word-spacing: 50px;
+    transition-duration: 1s;
+}
+
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #46484b;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  gap: 30px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(30px);
+  border-radius: 20px;
+  width: min(900px, 100%);
+  box-shadow: 0 0.5px 0 1px rgba(255, 255, 255, 0.23) inset, 0 1px 0 0 rgba(255, 255, 255, 0.66) inset, 0 4px 16px rgba(0, 0, 0, 0.12);
+  z-index: 10;
+}
+
+.info {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 450px;
+  padding: 0 35px;
+  text-align: justify;
+}
+
+.info p{
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.movie-night {
+  background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+}
+
+.btn {
+  display: block;
+  padding: 10px 40px;
+  margin: 10px auto;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 4px;
+  outline: none;
+  text-decoration: none;
+  color: #784ba0;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn:visited {
+    transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    animation: gelatine 0.5s 1;
+}
+
+@keyframes gelatine {
+  
+  0%, 100% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
+
+/* SWIPER */
+
+.swiper {
+  width: 80%;
+  height: 600px;
+  /* padding: 50px 0; */
+}
+
+.swiper-slide {
+  position: relative;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.swiper-slide span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  padding: 7px 18px;
+  margin: 10px;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: inherit;
+  background: rgba(255, 255, 255, 0.095);
+  box-shadow: inset 2px -2px 20px rgba(214, 214, 214, 0.2), inset -3px 3px 3px rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(74px);
+}
+
+.swiper-slide h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin: 0 0 20px 20px;
+}
+
+.swiper-slide:nth-child(1n) {
+  background: linear-gradient(rgba(70,72,75,0.5),rgba(70,72,75,0.5)), url("Image/drone.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide:nth-child(2n) {
+  background: linear-gradient(rgba(70,72,75,0.5),rgba(70,72,75,0.5)), url("Image/team.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide:nth-child(3n) {
+  background: linear-gradient(rgba(70,72,75,0.5),rgba(70,72,75,0.5)), url("Image/export.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide:nth-child(4n) {
+  background: linear-gradient(rgba(70,72,75,0.5),rgba(70,72,75,0.5)), url("Image/surfaces.jpg")
+      no-repeat 50% 50% / cover;
+}
+/* ANIMATED BACKGROUND */
+
+.circles{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circles li{
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background-color: #ff3cac;
+  background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+}
+
+.circles li:nth-child(1){
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(2){
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+
+@keyframes animate {
+
+  0%{
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+
+  100%{
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+
+}
+
+.main7{
+    background-color: #2b2d2e;
+}
+
+.main8 .row .col p{
+    font-size: 14px;
+}
+
+.main9 .row{
+    height: 110vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Image/founder.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#txt4{
+    width: 50%;
+}
+
+/* footer */
+
+#ul1 span{
+    line-height: 30px;
+}
